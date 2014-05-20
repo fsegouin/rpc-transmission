@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0980BCA303462A9DCBF4A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92326355EAA240B3A6522F68 /* libPods.a */; };
+		B622B16B185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B622B16A185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.m */; };
+		B622B16E185D3FAC001FE09B /* FSTorrent.m in Sources */ = {isa = PBXBuildFile; fileRef = B622B16D185D3FAC001FE09B /* FSTorrent.m */; };
+		B62432001859373300857EE3 /* XMLRPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431DD1859373300857EE3 /* XMLRPCConnection.m */; };
+		B62432011859373300857EE3 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431EC1859373300857EE3 /* NSData+Base64.m */; };
+		B62432021859373300857EE3 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431EE1859373300857EE3 /* NSStringAdditions.m */; };
+		B62432031859373300857EE3 /* XMLRPCConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431F41859373300857EE3 /* XMLRPCConnectionManager.m */; };
+		B62432041859373300857EE3 /* XMLRPCDefaultEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431F61859373300857EE3 /* XMLRPCDefaultEncoder.m */; };
+		B62432051859373300857EE3 /* XMLRPCEventBasedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431F91859373300857EE3 /* XMLRPCEventBasedParser.m */; };
+		B62432061859373300857EE3 /* XMLRPCEventBasedParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431FB1859373300857EE3 /* XMLRPCEventBasedParserDelegate.m */; };
+		B62432071859373300857EE3 /* XMLRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431FD1859373300857EE3 /* XMLRPCRequest.m */; };
+		B62432081859373300857EE3 /* XMLRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431FF1859373300857EE3 /* XMLRPCResponse.m */; };
 		B68A1BA51858D8B90016B37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68A1BA41858D8B90016B37B /* Foundation.framework */; };
 		B68A1BA71858D8B90016B37B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68A1BA61858D8B90016B37B /* CoreGraphics.framework */; };
 		B68A1BA91858D8B90016B37B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68A1BA81858D8B90016B37B /* UIKit.framework */; };
@@ -15,14 +27,14 @@
 		B68A1BB51858D8B90016B37B /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A1BB41858D8B90016B37B /* FSAppDelegate.m */; };
 		B68A1BB81858D8B90016B37B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68A1BB61858D8B90016B37B /* Main_iPhone.storyboard */; };
 		B68A1BBB1858D8B90016B37B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68A1BB91858D8B90016B37B /* Main_iPad.storyboard */; };
-		B68A1BBE1858D8B90016B37B /* FSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A1BBD1858D8B90016B37B /* FSFirstViewController.m */; };
-		B68A1BC11858D8BA0016B37B /* FSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A1BC01858D8BA0016B37B /* FSSecondViewController.m */; };
 		B68A1BC31858D8BA0016B37B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68A1BC21858D8BA0016B37B /* Images.xcassets */; };
 		B68A1BCA1858D8BA0016B37B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68A1BC91858D8BA0016B37B /* XCTest.framework */; };
 		B68A1BCB1858D8BA0016B37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68A1BA41858D8B90016B37B /* Foundation.framework */; };
 		B68A1BCC1858D8BA0016B37B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68A1BA81858D8B90016B37B /* UIKit.framework */; };
 		B68A1BD41858D8BA0016B37B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B68A1BD21858D8BA0016B37B /* InfoPlist.strings */; };
 		B68A1BD61858D8BA0016B37B /* rpctransmissionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A1BD51858D8BA0016B37B /* rpctransmissionTests.m */; };
+		B68A1BE21858D9410016B37B /* FSTorrentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A1BE11858D9410016B37B /* FSTorrentsViewController.m */; };
+		B6F74788185A2326004EC162 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F74787185A2326004EC162 /* Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85668CDE2DE14290B3A25B23 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		92326355EAA240B3A6522F68 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B622B169185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNavigationBarWithSegmentedControl.h; sourceTree = "<group>"; };
+		B622B16A185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNavigationBarWithSegmentedControl.m; sourceTree = "<group>"; };
+		B622B16C185D3FAC001FE09B /* FSTorrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTorrent.h; sourceTree = "<group>"; };
+		B622B16D185D3FAC001FE09B /* FSTorrent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTorrent.m; sourceTree = "<group>"; };
+		B62431DD1859373300857EE3 /* XMLRPCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnection.m; sourceTree = "<group>"; };
+		B62431EB1859373300857EE3 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		B62431EC1859373300857EE3 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		B62431ED1859373300857EE3 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		B62431EE1859373300857EE3 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		B62431EF1859373300857EE3 /* XMLRPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPC.h; sourceTree = "<group>"; };
+		B62431F01859373300857EE3 /* XMLRPC.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPC.pch; sourceTree = "<group>"; };
+		B62431F11859373300857EE3 /* XMLRPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnection.h; sourceTree = "<group>"; };
+		B62431F21859373300857EE3 /* XMLRPCConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnectionDelegate.h; sourceTree = "<group>"; };
+		B62431F31859373300857EE3 /* XMLRPCConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnectionManager.h; sourceTree = "<group>"; };
+		B62431F41859373300857EE3 /* XMLRPCConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnectionManager.m; sourceTree = "<group>"; };
+		B62431F51859373300857EE3 /* XMLRPCDefaultEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCDefaultEncoder.h; sourceTree = "<group>"; };
+		B62431F61859373300857EE3 /* XMLRPCDefaultEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCDefaultEncoder.m; sourceTree = "<group>"; };
+		B62431F71859373300857EE3 /* XMLRPCEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEncoder.h; sourceTree = "<group>"; };
+		B62431F81859373300857EE3 /* XMLRPCEventBasedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEventBasedParser.h; sourceTree = "<group>"; };
+		B62431F91859373300857EE3 /* XMLRPCEventBasedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEventBasedParser.m; sourceTree = "<group>"; };
+		B62431FA1859373300857EE3 /* XMLRPCEventBasedParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEventBasedParserDelegate.h; sourceTree = "<group>"; };
+		B62431FB1859373300857EE3 /* XMLRPCEventBasedParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEventBasedParserDelegate.m; sourceTree = "<group>"; };
+		B62431FC1859373300857EE3 /* XMLRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCRequest.h; sourceTree = "<group>"; };
+		B62431FD1859373300857EE3 /* XMLRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCRequest.m; sourceTree = "<group>"; };
+		B62431FE1859373300857EE3 /* XMLRPCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCResponse.h; sourceTree = "<group>"; };
+		B62431FF1859373300857EE3 /* XMLRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCResponse.m; sourceTree = "<group>"; };
 		B68A1BA11858D8B90016B37B /* rpctransmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpctransmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68A1BA41858D8B90016B37B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B68A1BA61858D8B90016B37B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,16 +88,16 @@
 		B68A1BB41858D8B90016B37B /* FSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
 		B68A1BB71858D8B90016B37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		B68A1BBA1858D8B90016B37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		B68A1BBC1858D8B90016B37B /* FSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSFirstViewController.h; sourceTree = "<group>"; };
-		B68A1BBD1858D8B90016B37B /* FSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSFirstViewController.m; sourceTree = "<group>"; };
-		B68A1BBF1858D8B90016B37B /* FSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSecondViewController.h; sourceTree = "<group>"; };
-		B68A1BC01858D8BA0016B37B /* FSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSecondViewController.m; sourceTree = "<group>"; };
 		B68A1BC21858D8BA0016B37B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B68A1BC81858D8BA0016B37B /* rpctransmissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rpctransmissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68A1BC91858D8BA0016B37B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B68A1BD11858D8BA0016B37B /* rpctransmissionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rpctransmissionTests-Info.plist"; sourceTree = "<group>"; };
 		B68A1BD31858D8BA0016B37B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B68A1BD51858D8BA0016B37B /* rpctransmissionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rpctransmissionTests.m; sourceTree = "<group>"; };
+		B68A1BE01858D9410016B37B /* FSTorrentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTorrentsViewController.h; sourceTree = "<group>"; };
+		B68A1BE11858D9410016B37B /* FSTorrentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTorrentsViewController.m; sourceTree = "<group>"; };
+		B6F74786185A2326004EC162 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		B6F74787185A2326004EC162 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +108,7 @@
 				B68A1BA71858D8B90016B37B /* CoreGraphics.framework in Frameworks */,
 				B68A1BA91858D8B90016B37B /* UIKit.framework in Frameworks */,
 				B68A1BA51858D8B90016B37B /* Foundation.framework in Frameworks */,
+				AC0980BCA303462A9DCBF4A0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +125,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B622B16F185D3FB3001FE09B /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B622B169185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.h */,
+				B622B16A185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.m */,
+				B622B16C185D3FAC001FE09B /* FSTorrent.h */,
+				B622B16D185D3FAC001FE09B /* FSTorrent.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		B62431C618591C7E00857EE3 /* XMLRPC */ = {
+			isa = PBXGroup;
+			children = (
+				B62432091859375E00857EE3 /* Headers */,
+				B62431DD1859373300857EE3 /* XMLRPCConnection.m */,
+				B62431EC1859373300857EE3 /* NSData+Base64.m */,
+				B62431EE1859373300857EE3 /* NSStringAdditions.m */,
+				B62431F41859373300857EE3 /* XMLRPCConnectionManager.m */,
+				B62431F61859373300857EE3 /* XMLRPCDefaultEncoder.m */,
+				B62431F91859373300857EE3 /* XMLRPCEventBasedParser.m */,
+				B62431FB1859373300857EE3 /* XMLRPCEventBasedParserDelegate.m */,
+				B62431FD1859373300857EE3 /* XMLRPCRequest.m */,
+				B62431FF1859373300857EE3 /* XMLRPCResponse.m */,
+			);
+			name = XMLRPC;
+			sourceTree = "<group>";
+		};
+		B62432091859375E00857EE3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B62431EB1859373300857EE3 /* NSData+Base64.h */,
+				B62431ED1859373300857EE3 /* NSStringAdditions.h */,
+				B62431EF1859373300857EE3 /* XMLRPC.h */,
+				B62431F01859373300857EE3 /* XMLRPC.pch */,
+				B62431F11859373300857EE3 /* XMLRPCConnection.h */,
+				B62431F21859373300857EE3 /* XMLRPCConnectionDelegate.h */,
+				B62431F31859373300857EE3 /* XMLRPCConnectionManager.h */,
+				B62431F51859373300857EE3 /* XMLRPCDefaultEncoder.h */,
+				B62431F71859373300857EE3 /* XMLRPCEncoder.h */,
+				B62431F81859373300857EE3 /* XMLRPCEventBasedParser.h */,
+				B62431FA1859373300857EE3 /* XMLRPCEventBasedParserDelegate.h */,
+				B62431FC1859373300857EE3 /* XMLRPCRequest.h */,
+				B62431FE1859373300857EE3 /* XMLRPCResponse.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
 		B68A1B981858D8B90016B37B = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +180,7 @@
 				B68A1BCF1858D8BA0016B37B /* rpctransmissionTests */,
 				B68A1BA31858D8B90016B37B /* Frameworks */,
 				B68A1BA21858D8B90016B37B /* Products */,
+				85668CDE2DE14290B3A25B23 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +196,13 @@
 		B68A1BA31858D8B90016B37B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6F74785185A230E004EC162 /* Base64 */,
+				B62431C618591C7E00857EE3 /* XMLRPC */,
 				B68A1BA41858D8B90016B37B /* Foundation.framework */,
 				B68A1BA61858D8B90016B37B /* CoreGraphics.framework */,
 				B68A1BA81858D8B90016B37B /* UIKit.framework */,
 				B68A1BC91858D8BA0016B37B /* XCTest.framework */,
+				92326355EAA240B3A6522F68 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,14 +210,12 @@
 		B68A1BAA1858D8B90016B37B /* rpctransmission */ = {
 			isa = PBXGroup;
 			children = (
+				B68A1BDF1858D8D50016B37B /* Storyboards */,
+				B622B16F185D3FB3001FE09B /* Objects */,
 				B68A1BB31858D8B90016B37B /* FSAppDelegate.h */,
 				B68A1BB41858D8B90016B37B /* FSAppDelegate.m */,
-				B68A1BB61858D8B90016B37B /* Main_iPhone.storyboard */,
-				B68A1BB91858D8B90016B37B /* Main_iPad.storyboard */,
-				B68A1BBC1858D8B90016B37B /* FSFirstViewController.h */,
-				B68A1BBD1858D8B90016B37B /* FSFirstViewController.m */,
-				B68A1BBF1858D8B90016B37B /* FSSecondViewController.h */,
-				B68A1BC01858D8BA0016B37B /* FSSecondViewController.m */,
+				B68A1BE01858D9410016B37B /* FSTorrentsViewController.h */,
+				B68A1BE11858D9410016B37B /* FSTorrentsViewController.m */,
 				B68A1BC21858D8BA0016B37B /* Images.xcassets */,
 				B68A1BAB1858D8B90016B37B /* Supporting Files */,
 			);
@@ -160,6 +251,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B68A1BDF1858D8D50016B37B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B68A1BB61858D8B90016B37B /* Main_iPhone.storyboard */,
+				B68A1BB91858D8B90016B37B /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B6F74785185A230E004EC162 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				B6F74786185A2326004EC162 /* Base64.h */,
+				B6F74787185A2326004EC162 /* Base64.m */,
+			);
+			name = Base64;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B68A1BD91858D8BA0016B37B /* Build configuration list for PBXNativeTarget "rpctransmission" */;
 			buildPhases = (
+				CEA0F61501C8413BBA576F13 /* Check Pods Manifest.lock */,
 				B68A1B9D1858D8B90016B37B /* Sources */,
 				B68A1B9E1858D8B90016B37B /* Frameworks */,
 				B68A1B9F1858D8B90016B37B /* Resources */,
+				BAE5733BA21F4B8CADD16310 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,15 +365,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BAE5733BA21F4B8CADD16310 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA0F61501C8413BBA576F13 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B68A1B9D1858D8B90016B37B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B68A1BBE1858D8B90016B37B /* FSFirstViewController.m in Sources */,
+				B6F74788185A2326004EC162 /* Base64.m in Sources */,
 				B68A1BB11858D8B90016B37B /* main.m in Sources */,
+				B62432081859373300857EE3 /* XMLRPCResponse.m in Sources */,
+				B62432001859373300857EE3 /* XMLRPCConnection.m in Sources */,
 				B68A1BB51858D8B90016B37B /* FSAppDelegate.m in Sources */,
-				B68A1BC11858D8BA0016B37B /* FSSecondViewController.m in Sources */,
+				B62432061859373300857EE3 /* XMLRPCEventBasedParserDelegate.m in Sources */,
+				B62432051859373300857EE3 /* XMLRPCEventBasedParser.m in Sources */,
+				B62432071859373300857EE3 /* XMLRPCRequest.m in Sources */,
+				B62432041859373300857EE3 /* XMLRPCDefaultEncoder.m in Sources */,
+				B68A1BE21858D9410016B37B /* FSTorrentsViewController.m in Sources */,
+				B62432031859373300857EE3 /* XMLRPCConnectionManager.m in Sources */,
+				B62432021859373300857EE3 /* NSStringAdditions.m in Sources */,
+				B622B16E185D3FAC001FE09B /* FSTorrent.m in Sources */,
+				B622B16B185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.m in Sources */,
+				B62432011859373300857EE3 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,12 +551,19 @@
 		};
 		B68A1BDA1858D8BA0016B37B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85668CDE2DE14290B3A25B23 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rpctransmission/rpctransmission-Prefix.pch";
 				INFOPLIST_FILE = "rpctransmission/rpctransmission-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/florentsegouin/Dropbox/Programmation/ObjC/rpctransmission/rpctransmission,
+					/Users/florentsegouin/Dropbox/Programmation/ObjC/rpctransmission,
+					/Users/florentsegouin/Desktop,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -409,12 +571,19 @@
 		};
 		B68A1BDB1858D8BA0016B37B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85668CDE2DE14290B3A25B23 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rpctransmission/rpctransmission-Prefix.pch";
 				INFOPLIST_FILE = "rpctransmission/rpctransmission-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/florentsegouin/Dropbox/Programmation/ObjC/rpctransmission/rpctransmission,
+					/Users/florentsegouin/Dropbox/Programmation/ObjC/rpctransmission,
+					/Users/florentsegouin/Desktop,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -481,6 +650,7 @@
 				B68A1BDB1858D8BA0016B37B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B68A1BDC1858D8BA0016B37B /* Build configuration list for PBXNativeTarget "rpctransmissionTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +659,7 @@
 				B68A1BDE1858D8BA0016B37B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
