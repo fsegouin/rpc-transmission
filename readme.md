@@ -17,7 +17,7 @@ None. Still in development.
 ### Step 1 : Clone this repo
 Run the following command line in Terminal (Protip: use [iTerm2](http://www.iterm2.com/#/section/home)):
 
-	$ git clone git@github.com:BetterCollective/bettingexpert-ios-app.git
+	$ git clone https://github.com/fsegouin/rpc-transmission.git
 
 ### Step 2 : Install [CocoaPods](http://cocoapods.org/)
 In your repo directory, run the following (only if you don't have CocoaPods):
