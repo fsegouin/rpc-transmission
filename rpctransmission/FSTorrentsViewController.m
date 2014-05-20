@@ -11,10 +11,6 @@
 #import "Base64.h"
 #import "AFHTTPRequestOperationManager.h"
 #import "FSNavigationBarWithSegmentedControl.h"
-//#import "XMLRPCRequest.h"
-//#import "XMLRPCConnectionManager.h"
-//#import "XMLRPCResponse.h"
-//#import "NSStringAdditions.h"
 
 #define server @"SERVER IP"
 #define authorizationValue @"Basic + Base64 encoded credentials"

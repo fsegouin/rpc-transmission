@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XMLRPCConnectionDelegate.h"
 
 @interface FSTorrentsViewController : UITableViewController <NSURLConnectionDelegate>
 

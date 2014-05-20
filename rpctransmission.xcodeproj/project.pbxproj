@@ -8,17 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AC0980BCA303462A9DCBF4A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92326355EAA240B3A6522F68 /* libPods.a */; };
+		B60AA526192C0DC100B1914A /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AA523192C0DC100B1914A /* Base64.m */; };
+		B60AA527192C0DC100B1914A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AA525192C0DC100B1914A /* NSData+Base64.m */; };
 		B622B16B185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B622B16A185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.m */; };
 		B622B16E185D3FAC001FE09B /* FSTorrent.m in Sources */ = {isa = PBXBuildFile; fileRef = B622B16D185D3FAC001FE09B /* FSTorrent.m */; };
-		B62432001859373300857EE3 /* XMLRPCConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431DD1859373300857EE3 /* XMLRPCConnection.m */; };
-		B62432011859373300857EE3 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431EC1859373300857EE3 /* NSData+Base64.m */; };
-		B62432021859373300857EE3 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431EE1859373300857EE3 /* NSStringAdditions.m */; };
-		B62432031859373300857EE3 /* XMLRPCConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431F41859373300857EE3 /* XMLRPCConnectionManager.m */; };
-		B62432041859373300857EE3 /* XMLRPCDefaultEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431F61859373300857EE3 /* XMLRPCDefaultEncoder.m */; };
-		B62432051859373300857EE3 /* XMLRPCEventBasedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431F91859373300857EE3 /* XMLRPCEventBasedParser.m */; };
-		B62432061859373300857EE3 /* XMLRPCEventBasedParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431FB1859373300857EE3 /* XMLRPCEventBasedParserDelegate.m */; };
-		B62432071859373300857EE3 /* XMLRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431FD1859373300857EE3 /* XMLRPCRequest.m */; };
-		B62432081859373300857EE3 /* XMLRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B62431FF1859373300857EE3 /* XMLRPCResponse.m */; };
 		B68A1BA51858D8B90016B37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68A1BA41858D8B90016B37B /* Foundation.framework */; };
 		B68A1BA71858D8B90016B37B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68A1BA61858D8B90016B37B /* CoreGraphics.framework */; };
 		B68A1BA91858D8B90016B37B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68A1BA81858D8B90016B37B /* UIKit.framework */; };
@@ -34,7 +27,6 @@
 		B68A1BD41858D8BA0016B37B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B68A1BD21858D8BA0016B37B /* InfoPlist.strings */; };
 		B68A1BD61858D8BA0016B37B /* rpctransmissionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A1BD51858D8BA0016B37B /* rpctransmissionTests.m */; };
 		B68A1BE21858D9410016B37B /* FSTorrentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A1BE11858D9410016B37B /* FSTorrentsViewController.m */; };
-		B6F74788185A2326004EC162 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F74787185A2326004EC162 /* Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,32 +42,14 @@
 /* Begin PBXFileReference section */
 		85668CDE2DE14290B3A25B23 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		92326355EAA240B3A6522F68 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60AA522192C0DC100B1914A /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = Libraries/Base64.h; sourceTree = "<group>"; };
+		B60AA523192C0DC100B1914A /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = Libraries/Base64.m; sourceTree = "<group>"; };
+		B60AA524192C0DC100B1914A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "Libraries/NSData+Base64.h"; sourceTree = "<group>"; };
+		B60AA525192C0DC100B1914A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "Libraries/NSData+Base64.m"; sourceTree = "<group>"; };
 		B622B169185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNavigationBarWithSegmentedControl.h; sourceTree = "<group>"; };
 		B622B16A185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNavigationBarWithSegmentedControl.m; sourceTree = "<group>"; };
 		B622B16C185D3FAC001FE09B /* FSTorrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTorrent.h; sourceTree = "<group>"; };
 		B622B16D185D3FAC001FE09B /* FSTorrent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTorrent.m; sourceTree = "<group>"; };
-		B62431DD1859373300857EE3 /* XMLRPCConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnection.m; sourceTree = "<group>"; };
-		B62431EB1859373300857EE3 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		B62431EC1859373300857EE3 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		B62431ED1859373300857EE3 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
-		B62431EE1859373300857EE3 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
-		B62431EF1859373300857EE3 /* XMLRPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPC.h; sourceTree = "<group>"; };
-		B62431F01859373300857EE3 /* XMLRPC.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPC.pch; sourceTree = "<group>"; };
-		B62431F11859373300857EE3 /* XMLRPCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnection.h; sourceTree = "<group>"; };
-		B62431F21859373300857EE3 /* XMLRPCConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnectionDelegate.h; sourceTree = "<group>"; };
-		B62431F31859373300857EE3 /* XMLRPCConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCConnectionManager.h; sourceTree = "<group>"; };
-		B62431F41859373300857EE3 /* XMLRPCConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCConnectionManager.m; sourceTree = "<group>"; };
-		B62431F51859373300857EE3 /* XMLRPCDefaultEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCDefaultEncoder.h; sourceTree = "<group>"; };
-		B62431F61859373300857EE3 /* XMLRPCDefaultEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCDefaultEncoder.m; sourceTree = "<group>"; };
-		B62431F71859373300857EE3 /* XMLRPCEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEncoder.h; sourceTree = "<group>"; };
-		B62431F81859373300857EE3 /* XMLRPCEventBasedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEventBasedParser.h; sourceTree = "<group>"; };
-		B62431F91859373300857EE3 /* XMLRPCEventBasedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEventBasedParser.m; sourceTree = "<group>"; };
-		B62431FA1859373300857EE3 /* XMLRPCEventBasedParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCEventBasedParserDelegate.h; sourceTree = "<group>"; };
-		B62431FB1859373300857EE3 /* XMLRPCEventBasedParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCEventBasedParserDelegate.m; sourceTree = "<group>"; };
-		B62431FC1859373300857EE3 /* XMLRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCRequest.h; sourceTree = "<group>"; };
-		B62431FD1859373300857EE3 /* XMLRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCRequest.m; sourceTree = "<group>"; };
-		B62431FE1859373300857EE3 /* XMLRPCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLRPCResponse.h; sourceTree = "<group>"; };
-		B62431FF1859373300857EE3 /* XMLRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLRPCResponse.m; sourceTree = "<group>"; };
 		B68A1BA11858D8B90016B37B /* rpctransmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpctransmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68A1BA41858D8B90016B37B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B68A1BA61858D8B90016B37B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,8 +70,6 @@
 		B68A1BD51858D8BA0016B37B /* rpctransmissionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rpctransmissionTests.m; sourceTree = "<group>"; };
 		B68A1BE01858D9410016B37B /* FSTorrentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTorrentsViewController.h; sourceTree = "<group>"; };
 		B68A1BE11858D9410016B37B /* FSTorrentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTorrentsViewController.m; sourceTree = "<group>"; };
-		B6F74786185A2326004EC162 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
-		B6F74787185A2326004EC162 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +97,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B60AA521192C0DB200B1914A /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				B60AA522192C0DC100B1914A /* Base64.h */,
+				B60AA523192C0DC100B1914A /* Base64.m */,
+				B60AA524192C0DC100B1914A /* NSData+Base64.h */,
+				B60AA525192C0DC100B1914A /* NSData+Base64.m */,
+			);
+			name = Base64;
+			sourceTree = "<group>";
+		};
 		B622B16F185D3FB3001FE09B /* Objects */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,43 +117,6 @@
 				B622B16D185D3FAC001FE09B /* FSTorrent.m */,
 			);
 			name = Objects;
-			sourceTree = "<group>";
-		};
-		B62431C618591C7E00857EE3 /* XMLRPC */ = {
-			isa = PBXGroup;
-			children = (
-				B62432091859375E00857EE3 /* Headers */,
-				B62431DD1859373300857EE3 /* XMLRPCConnection.m */,
-				B62431EC1859373300857EE3 /* NSData+Base64.m */,
-				B62431EE1859373300857EE3 /* NSStringAdditions.m */,
-				B62431F41859373300857EE3 /* XMLRPCConnectionManager.m */,
-				B62431F61859373300857EE3 /* XMLRPCDefaultEncoder.m */,
-				B62431F91859373300857EE3 /* XMLRPCEventBasedParser.m */,
-				B62431FB1859373300857EE3 /* XMLRPCEventBasedParserDelegate.m */,
-				B62431FD1859373300857EE3 /* XMLRPCRequest.m */,
-				B62431FF1859373300857EE3 /* XMLRPCResponse.m */,
-			);
-			name = XMLRPC;
-			sourceTree = "<group>";
-		};
-		B62432091859375E00857EE3 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				B62431EB1859373300857EE3 /* NSData+Base64.h */,
-				B62431ED1859373300857EE3 /* NSStringAdditions.h */,
-				B62431EF1859373300857EE3 /* XMLRPC.h */,
-				B62431F01859373300857EE3 /* XMLRPC.pch */,
-				B62431F11859373300857EE3 /* XMLRPCConnection.h */,
-				B62431F21859373300857EE3 /* XMLRPCConnectionDelegate.h */,
-				B62431F31859373300857EE3 /* XMLRPCConnectionManager.h */,
-				B62431F51859373300857EE3 /* XMLRPCDefaultEncoder.h */,
-				B62431F71859373300857EE3 /* XMLRPCEncoder.h */,
-				B62431F81859373300857EE3 /* XMLRPCEventBasedParser.h */,
-				B62431FA1859373300857EE3 /* XMLRPCEventBasedParserDelegate.h */,
-				B62431FC1859373300857EE3 /* XMLRPCRequest.h */,
-				B62431FE1859373300857EE3 /* XMLRPCResponse.h */,
-			);
-			name = Headers;
 			sourceTree = "<group>";
 		};
 		B68A1B981858D8B90016B37B = {
@@ -196,8 +142,7 @@
 		B68A1BA31858D8B90016B37B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B6F74785185A230E004EC162 /* Base64 */,
-				B62431C618591C7E00857EE3 /* XMLRPC */,
+				B60AA521192C0DB200B1914A /* Base64 */,
 				B68A1BA41858D8B90016B37B /* Foundation.framework */,
 				B68A1BA61858D8B90016B37B /* CoreGraphics.framework */,
 				B68A1BA81858D8B90016B37B /* UIKit.framework */,
@@ -260,15 +205,6 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
-		B6F74785185A230E004EC162 /* Base64 */ = {
-			isa = PBXGroup;
-			children = (
-				B6F74786185A2326004EC162 /* Base64.h */,
-				B6F74787185A2326004EC162 /* Base64.m */,
-			);
-			name = Base64;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -316,7 +252,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Florent Segouin";
 				TargetAttributes = {
 					B68A1BC71858D8BA0016B37B = {
@@ -403,21 +339,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6F74788185A2326004EC162 /* Base64.m in Sources */,
 				B68A1BB11858D8B90016B37B /* main.m in Sources */,
-				B62432081859373300857EE3 /* XMLRPCResponse.m in Sources */,
-				B62432001859373300857EE3 /* XMLRPCConnection.m in Sources */,
 				B68A1BB51858D8B90016B37B /* FSAppDelegate.m in Sources */,
-				B62432061859373300857EE3 /* XMLRPCEventBasedParserDelegate.m in Sources */,
-				B62432051859373300857EE3 /* XMLRPCEventBasedParser.m in Sources */,
-				B62432071859373300857EE3 /* XMLRPCRequest.m in Sources */,
-				B62432041859373300857EE3 /* XMLRPCDefaultEncoder.m in Sources */,
 				B68A1BE21858D9410016B37B /* FSTorrentsViewController.m in Sources */,
-				B62432031859373300857EE3 /* XMLRPCConnectionManager.m in Sources */,
-				B62432021859373300857EE3 /* NSStringAdditions.m in Sources */,
+				B60AA527192C0DC100B1914A /* NSData+Base64.m in Sources */,
 				B622B16E185D3FAC001FE09B /* FSTorrent.m in Sources */,
+				B60AA526192C0DC100B1914A /* Base64.m in Sources */,
 				B622B16B185CE0E1001FE09B /* FSNavigationBarWithSegmentedControl.m in Sources */,
-				B62432011859373300857EE3 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +407,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -519,7 +446,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -592,7 +518,6 @@
 		B68A1BDD1858D8BA0016B37B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rpctransmission.app/rpctransmission";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -615,7 +540,6 @@
 		B68A1BDE1858D8BA0016B37B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rpctransmission.app/rpctransmission";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
